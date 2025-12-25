@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { Link } from 'react-router'
 
@@ -21,7 +21,7 @@ function MailboxList() {
         {mails.map((oneMail)=>
             <div key={oneMail._id}>
                 <h3>Owner: {oneMail.owner}, Size: {oneMail.size}</h3>
-                <Link to={'/mails/' + oneMail._id} >edit mail</Link>
+                <Link to={'/mails/' + oneMail._id} >mail details</Link>
             </div>
         )}
 

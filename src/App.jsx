@@ -1,6 +1,4 @@
-import React from 'react'
 import { Route,Routes } from 'react-router'
-import { Link } from 'react-router'
 import NavBar from './components/NavBar'
 import MailboxList from './pages/MailboxList'
 import Homepage from './pages/Homepage'
