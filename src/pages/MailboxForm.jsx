@@ -17,7 +17,7 @@ function MailboxForm() {
     function handleSubmit(event){
         event.preventDefault()
         axios.post(import.meta.env.VITE_URL,mail)
-        navigate('/mails')
+        navigate('/mailboxes')
     }
 
   return (

@@ -18,10 +18,9 @@ function MailboxList() {
     return (
     <div>
         <h1>List of All mails</h1>
-        {mails.map((oneMail)=>
+        {mails.map((oneMail,index=1)=>
             <div key={oneMail._id}>
-                <h3>Owner: {oneMail.owner}, Size: {oneMail.size}</h3>
-                <Link to={'/mails/' + oneMail._id} >mail details</Link>
+                <Link to={'/mailboxes/' + oneMail._id} >Mailbox {index}</Link>
             </div>
         )}
 

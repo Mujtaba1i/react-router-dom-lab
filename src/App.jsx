@@ -11,9 +11,9 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="/mails" element={<MailboxList />} />
-        <Route path='/mails/:id' element={<MailboxDetails/>}/>
-        <Route path='/mails/create' element={<MailboxForm/>}/>
+        <Route path="/mailboxes" element={<MailboxList />} />
+        <Route path='/mailboxes/:id' element={<MailboxDetails/>}/>
+        <Route path='/new-mailbox' element={<MailboxForm/>}/>
       </Routes>
     </div>
   )

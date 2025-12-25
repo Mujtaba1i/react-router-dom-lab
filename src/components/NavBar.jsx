@@ -4,8 +4,8 @@ function NavBar() {
   return (
     <div>
           <Link to="/">Home</Link>
-          <Link to="/mails">Mails</Link>
-          <Link to="/mails/create">Create Mails</Link>
+          <Link to="/mailboxes">Mails</Link>
+          <Link to="/new-mailbox">Create Mails</Link>
     </div>
   )
 }
